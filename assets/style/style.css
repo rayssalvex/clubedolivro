@@ -1,0 +1,178 @@
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ header {
+   background: #333;
+   color: #fff;
+   padding: 1rem;
+   text-align: center;
+ }
+ 
+ header h1 {
+   margin: 0;
+ }
+ 
+ header nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ header nav ul li {
+   display: inline;
+   margin-right: 1rem;
+ }
+ 
+ header nav ul li a {
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ .carousel {
+   margin-top: 2rem;
+ }
+
+ 
+.carousel-item{
+   height: 360px;
+} 
+ .carousel-inner {
+   padding: 1rem;
+ }
+ /*estilização dos cards do carousel  */
+ .card {
+   border: none;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin: 0.5rem;
+ }
+ 
+ .card-img-top {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   height: 250px;
+   object-fit: cover;
+ }
+ 
+ .card-body {
+   text-align: center;
+ }
+ 
+ .card-title {
+   font-size: 1.25rem;
+   margin-bottom: 0.75rem;
+ }
+ 
+ .card-text {
+   font-size: 1rem;
+   color: #666;
+   margin-bottom: 1rem;
+ }
+ 
+ .btn-primary {
+   background-color: #ffffff;
+   border: none;
+   padding: 0.5rem 1rem;
+   border-radius: 5px;
+   text-transform: uppercase;
+ }
+ 
+ .btn-primary:hover {
+   background-color: #ffffff;
+ }
+ 
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+
+   border-radius: 50%;
+ }
+ 
+ .carousel-control-prev-icon {
+   background-image: none;
+   content: '<';
+   font-size: 1.5rem;
+   color: #fff;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: none;
+   content: '>';
+   font-size: 1.5rem;
+   color: #fff;
+ }
+ /* banner frete grátis*/
+ .conteiner-item2 {
+
+   display: flex;
+   justify-content: center; 
+   align-items: center;     
+   padding: 20px;          
+   background-color: #f8f9fa;
+ 
+ }
+ .card-img-top2 {
+   width: 500px;          
+   height: 100%;          
+   border: 1px solid #ddd; 
+   border-radius: 5px;     
+ }
+
+
+
+ .footer1, .infoFooter1 > a{
+   background-color: var(--btOrange);
+   color: var(--btWhite);
+   margin-bottom: 10px;
+   
+
+ }
+
+ .infoFooter1{
+   max-width:960px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   margin-bottom: 10px;
+ }
+
+ .infoFooter1 p {
+   margin: 0 10px 10px 10px
+
+ }
+
+.footer2, .rSociais{
+   text-align: center;
+   padding-top: 25px;
+}
+
+
+ul, li, a{
+   list-style: none;
+   text-decoration: none;
+ }
+/* titulo sobre cards de leitura */
+.titleSection4{
+   text-align: center;
+   padding-top: 25px;
+   margin-bottom: 25px;
+}
+/* estilização dos cards sobre o que a leitura proporciona */
+ .card5 {
+   display: inline-block; 
+   vertical-align:top; 
+   width: 200px; 
+   margin-right: 250px;
+   border: 1px solid #333; 
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-bottom: 30px; 
+   height: 250px;
+   width: 200px;
+  
+}
+
